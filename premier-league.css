@@ -1,0 +1,93 @@
+html,
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px;
+    background-color: white;
+}
+
+header img {
+    width: 100%;
+}
+
+nav {
+    background-color: purple;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 30px;
+}
+nav a {
+    color: white;
+    font-family: verdana;
+    padding: 10px; 30px;
+    text-decoration: none;
+    font=size: 120%
+}
+
+nav a:hover {
+    color: black;
+    background-color: palegreen;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0; 
+}
+
+section{
+    padding: 20px;
+    overflow: auto;
+}
+
+section h1 {
+    color: midnightblue;
+    font-size: 180%;
+    font-family: verdana;
+}
+
+section h2{
+    color: springgreen;
+    font-size: 140%;
+    font-family: verdana;
+}
+footer{
+    background-color: purple;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 14 px;
+    font-family: verdana;
+}
+.epl {
+    width: 30%;
+    float: right;
+    
+}
+.button{
+    background-color: midnightblue;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px 0 0;
+    font-size: 20px;
+    font-family: verdana;
+    border-radius: 20px
+}
+a.button:hover{
+    background-color: purple;
+}
