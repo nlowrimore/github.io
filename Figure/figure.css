@@ -1,0 +1,56 @@
+html, 
+body{
+    margin: 0;
+    padding:0;
+    background-color: gray;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 1000px;    
+    background-color: white;
+}
+header {}
+
+nav{}
+
+section{
+    overflow: auto;
+}
+
+footer{}
+
+#box {
+    width: 720px;
+    /*height: 200px;*/
+    background-color: red;
+    margin: auto;
+    padding: 90px;
+    border: 50px solid black;
+    font-family: 'Kufam', cursive;
+}
+
+#box h1 {
+    font-family: 'Ranchers', cursive;
+}
+
+figure{
+    width: 30%;
+    background-color: black;
+    padding: 10px;
+    border: 1px solid white;
+    float: left;
+    margin: .5%;
+}
+figure img{
+    width: 100%;
+}
+figcaption{
+    color: white;
+    font-family: arial;
+    font-size: 90%;
+    text-align: center;
+    padding-top: 10px;
+        
+    
+}
