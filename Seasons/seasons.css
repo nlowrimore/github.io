@@ -1,0 +1,101 @@
+html,
+body {
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+#seasons {
+    width: 70%;
+    background-color: lightgoldenrodyellow;
+    margin: 0 auto;
+}
+
+#spring {
+    width: 70%;
+    background-color: green;
+    margin: 0 auto;
+}
+
+#summer {
+    width: 70%;
+    background-color: indianred;
+    margin: 0 auto;
+}
+
+#fall {
+    width: 70%;
+    background-color: rosybrown;
+    margin: 0 auto;
+}
+
+#winter {
+    width: 70%;
+    background-color: lightcyan;
+    margin: 0 auto;
+}
+
+header img {
+    width: 100%;
+}
+
+nav {
+    background-color: ivory;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 30px;
+}
+
+nav a {
+    color: black;
+    font-family: verdana;
+    padding: 10px;
+    30px;
+    text-decoration: none;
+    font=size: 120%;
+    text-align: center;
+}
+
+nav a:hover {
+    color: black;
+    background-color: palegreen;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    padding: 20px 60px;
+    overflow: auto;
+}
+
+section h1 {
+    font-size: 100%;
+    font-family: verdana;
+    font-weight: bold;
+}
+
+section p1 {
+    font-size: 80%;
+    font-family: verdana;
+    padding: 0px 20px 0px 0px;
+}
+
+footer {
+    background-color: ivory;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14 px;
+    font-family: verdana;
+}
+
+.tree {
+    width: 50%;
+    float: right;
+}
