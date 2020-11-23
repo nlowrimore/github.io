@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Utah</title>
+    <link href="final.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="figure.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Playfair+Display:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Playfair+Display:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Indie+Flower&family=Playfair+Display:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163993045-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-163993045-1');
+
+    </script>
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <img src="images/banner.jpg">
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="skiing.html">Ski Utah</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="parks.html">National Parks and Forests</a></li>
+                <li><a href="sports.html">Sports</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <article>
+                <div class="slider-wrapper theme-light">
+                    <div id="slider" class="nivoSlider">
+                        <img src="images/skier.jpg" data-thumb="images/skier.jpg" alt="Ski" title="Ski Utah" />
+                        <a href="http://dev7studios.com"><img src="images/arches.jpg" data-thumb="images/arches.jpg" alt="parks" title="Parks and Forests" /></a>
+                        <img src="images/arena.jpg" data-thumb="images/arena.jpg" alt="arena" title="Utah Jazz" data-transition="slideInLeft" />
+                        <img src="images/temple.jpg" data-thumb="images/temple.jpg" alt="temple" title="Mormon Temple" />
+                    </div>
+                </div>
+
+
+                <h1>Learn about Utah!</h1>
+                <p>Utah is a state in the western United States. It is bordered by Colorado to the east, Wyoming to the northeast, Idaho to the north, Arizona to the south, and Nevada to the west. It also touches a corner of New Mexico in the southeast. A little more than half of all Utahns are Mormons, the vast majority of whom are members of the Church of Jesus Christ of Latter-day Saints (LDS Church), which has its world headquarters in Salt Lake City. Utah is the only state where most of the population belongs to a single church. The LDS Church greatly influences Utahn culture, politics, and daily life, though since the 1990s the state has become more religiously diverse as well as secular. The state has a highly diversified economy, with major sectors including transportation, education, information technology and research, government services, and mining and a major tourist destination for outdoor recreation.</p>
+                <iframe width="945" height="315" src="https://www.youtube.com/embed/sdhE2hqwNuo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
+            <form method="post" action="../table.html">
+                <fieldset>
+                    <legend>Tell us about yourself!</legend>
+                    <p><label for="fname">First Name</label><br>
+                        <input type="text" id="fname" name="fname" required>
+                    </p>
+
+                    <p><label for="lname">Last Name</label><br>
+                        <input type="text" id="lname" name="lname">
+                    </p>
+
+                    <p><label for="email">email</label><br>
+                        <input type="email" id="email" name="email">
+                    </p>
+
+                    <p><label for="phone">phone</label><br>
+                        <input type="tel" id="phone" name="phone">
+                    </p>
+
+                    <p>How did you hear about this website?</p>
+
+                    <p><input type="checkbox" id="search" name="how" value="searchEngine"><label for="search">Search Engine</label><br>
+
+                        <input type="checkbox" id="ad" name="how" value="ad"><label for="ad">Advertisement</label><br>
+                    </p>
+
+                    <p>Have you visited Utah?</p>
+
+                    <input type="radio" name="before" id="yes" value="yes"><label for="yes">Yes</label><br>
+                    <input type="radio" name="before" id="no" value="no"><label for="no">No</label><br>
+
+                    <p>Please leave your comments below</p>
+                    <textarea name="comments" id="comments" placeholder="leave a comment"></textarea>
+
+                    <p><input type="submit" name="submit" value="submit form" class="button"></p>
+                </fieldset>
+            </form>
+            <a class="twitter-timeline" data-width="945" data-height="250" href="https://twitter.com/VisitUtah?ref_src=twsrc%5Etfw">Tweets by VisitUtah</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        </section>
+
+        <footer>
+            <p><b>Copyright &copy; 2020 Visit Utah</b></p>
+            <ul>
+                <li><a href=""><u>Site Map</u></a></li>
+                <li><a href=""><u>Contact Us</u></a></li>
+                <li><a href=""><u>FAQs</u></a></li>
+                <li><a href=""><u>Our Guarantee</u></a></li>
+                <li><a href=""><u>Privacy Policy</u></a></li>
+                <li><a href=""><u>Terms and Conditions</u></a></li>
+            </ul>
+        </footer>
+
+    </div>
+    <!--close wrap-->
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163993045-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-163993045-1');
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,197 @@
+html,
+body {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: lightgray;
+}
+
+#wrap {
+
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+header img {
+    height: 250px;
+    width: 945px;
+}
+
+nav {
+    background: linear-gradient(orange, blue);
+    width: 945px;
+    height: 50;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+
+nav ul {
+    margin: 0;
+    text-align: center;
+    padding: 15px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 5%;
+    width: 196;
+    height: 50;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #07a;
+}
+
+section {
+    background-color: darksalmon;
+    overflow: auto;
+}
+
+aside ul {
+    padding: 20px;
+}
+
+aside {
+    width: 28%;
+    padding: 1%;
+    float: left;
+    text-align: center;
+    background-color: darksalmon;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+
+aside a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    height: 40px;
+}
+
+aside a:hover {
+    background-color: white;
+    color: deepskyblue;
+}
+
+article {
+    background-color: white;
+    color: deepskyblue;
+    width: 68%;
+    padding: 1%;
+    float: right;
+}
+
+article h1 {
+    width: 945px;
+    font-size: 50px;
+    margin: 5px;
+    color: white;
+    text-align: middle;
+    background: linear-gradient(orange, blue);
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Amatic SC', cursive;
+}
+
+article h2 {
+    color: black;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Architects Daughter', cursive;
+}
+
+article p {
+    font-size: 32px;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Amatic SC', cursive;
+}
+
+article img {
+    width: 98%;
+    height: 250px;
+}
+
+footer {
+    background-color: deepskyblue;
+    background: linear-gradient(orange, blue);
+    width: 180;
+    height: 50;
+}
+
+footer ul {
+    display: inline;
+    font-size: 11px;
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+    padding: 0px 0px 0px 70px;
+}
+
+footer p {
+    font-size: 11px;
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: black;
+    }
+
+    #wrap {
+        width: 99%;
+    }
+
+    nav li {
+        display: block;
+        text-align: left;
+    }
+
+    nav ul,
+    nav li {
+        padding: 0;
+        margin: 0;
+    }
+
+    nav {
+        padding: 0;
+        width: 99%;
+    }
+
+    article h1 {
+        float: none;
+        width: 99%
+    }
+
+    header {
+        width: 99%;
+    }
+
+    header img {
+        width: 99%;
+    }

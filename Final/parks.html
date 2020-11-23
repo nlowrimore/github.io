@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>National Parks and Forests</title>
+    <link href="parks.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="slideshow.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Playfair+Display:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Playfair+Display:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Indie+Flower&family=Playfair+Display:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163993045-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-163993045-1'); <
+        /head>
+
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <img src="images/parksbanner.jpg">
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="final.html">Home</a></li>
+                <li><a href="skiing.html">Ski Utah</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="sports.html">Sports</a></li>
+            </ul>
+        </nav>
+
+        <section>
+
+            <aside>
+
+                <ul><a href="https://www.visitutah.com/places-to-go/parks-outdoors/arches">Arches</a>
+                    <a href="https://www.visitutah.com/places-to-go/parks-outdoors/bryce-canyon">Bryce Canyon</a>
+                    <a href="https://www.visitutah.com/places-to-go/parks-outdoors/canyonlands">Canyon Lands</a>
+                    <a href="https://www.visitutah.com/places-to-go/parks-outdoors/capitol-reef">Capitol Reef</a>
+                    <a href="https://www.visitutah.com/places-to-go/parks-outdoors/zion">Zions</a>
+                </ul>
+
+            </aside>
+            <article>
+                <div class="slider-wrapper theme-light">
+                    <div id="slider" class="nivoSlider">
+                        <img src="images/arches2.jpg" data-thumb="images/arches2.jpg" alt="arches" title="Arches" />
+                        <a href="http://dev7studios.com"><img src="images/brycecanyon.jpg" data-thumb="images/brycecanyon.jpg" alt="bryce" title="Bryce Canyon" /></a>
+                        <img src="images/canyonlands.jpg" data-thumb="images/canyonlands.jpg" alt="canyonlands" title="Canyon Lands" data-transition="slideInLeft" />
+                        <img src="images/capitolreef.jpg" data-thumb="images/capitolreef.jpg" alt="capitol" title="Capitol Reef" />
+                        <img src="images/zions.jpg" data-thumb="images/zions.jpg" alt="zions" title="Zions" />
+                    </div>
+                    <div id="htmlcaption" class="nivo-html-caption">
+                        <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+                    </div>
+                </div>
+                <h1>Utah's expansive and diverse landscape </h1>
+                <p>Every state thinks it’s fun. Every state claims to have “something for everyone.” But not every state has 3.5 distinct geographic regions, five national parks, 45 state parks, 5 national historic sites & trails, and a dozen national monuments & recreation areas.</p>
+                <iframe width="640" height="315" src="https://www.youtube.com/embed/iKJ-TuDl8h0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
+        </section>
+
+
+        <footer>
+            <p><b>Copyright &copy; 2020 Visit Utah</b></p>
+            <ul>
+                <li><a href=""><u>Site Map</u></a></li>
+                <li><a href=""><u>Contact Us</u></a></li>
+                <li><a href=""><u>FAQs</u></a></li>
+                <li><a href=""><u>Our Guarantee</u></a></li>
+                <li><a href=""><u>Privacy Policy</u></a></li>
+                <li><a href=""><u>Terms and Conditions</u></a></li>
+            </ul>
+        </footer>
+
+    </div>
+    <!--close wrap-->
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+</body>
+
+
+</html>
